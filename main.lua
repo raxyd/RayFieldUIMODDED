@@ -1113,7 +1113,7 @@ function RayfieldLibrary:CreateWindow(Settings)
 	LoadingFrame.Title.Text = Settings.LoadingTitle or "Arrayfield Interface Suite"
 	LoadingFrame.Subtitle.Text = Settings.LoadingSubtitle or "by Sirius | Meta"
 	if Settings.LoadingTitle ~= "Arrayfield Interface Suite" then
-		LoadingFrame.Version.Text = "lol"
+		LoadingFrame.Version.Text = ""
 	end
 	Topbar.Visible = false
 	Elements.Visible = false
